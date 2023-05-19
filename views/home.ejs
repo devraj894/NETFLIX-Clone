@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <navbar class="nav">
+        <div class="img1">
+            <img src="img/img.png" alt="" srcset="">
+        </div>
+        <ul>
+            <li>HOME</li>
+            <li>MOVIES</li>
+            <li>TV SHOWS</li>
+            <li>PAGES</li>
+        </ul>
+        <input type="search" name="search">
+        <button class="btn1">Search</button>
+        <div class="img2">
+            <img src="img/bell.png" alt="" srcset="">
+        </div>
+        <div class="img3">
+            <img src="img/profile.png" alt="" srcset="">
+        </div>
+    </navbar>
+    <div class="container">
+        <div class="carousel" data-flickity='{"wrapAround":true,"autoPlay":true}'>
+            <div class="carousel-cell1">
+                <img src="img/bg1.jpg" alt="" class="w3-image">
+            </div>
+            <div class="carousel-cell2">
+                <img src="img/bg2.png" alt="" class="w3-image">
+            </div>
+            <div class="carousel-cell3">
+                <img src="img/bg3.jpg" alt="" class="w3-image">
+            </div>
+        </div>
+        <div class="top-movies">
+            <h1>Top Picks For You</h1>
+        </div>
+        <div class="content">
+            <h1>Want to Watch</h1>
+            <h4>Watch Now</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolor labore, reiciendis adipisci, rem,
+                autem<br> mollitia libero quos cupiditate incidunt inventore? Libero sit nobis veritatis labore sunt id
+                aliquam doloribus ad quasi incidunt.</p>
+
+            <video controls muted="" id="video1">
+                <source src="img/video.mp4" type = "video/mp4">
+            </video>    
+        </div> 
+
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>

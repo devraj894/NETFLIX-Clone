@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inconsolata:wght@300&family=Inter:wght@100&family=Kanit:wght@100&family=Public+Sans:wght@500&family=Source+Code+Pro&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(10, 5, 28), rgb(42, 30, 54), rgb(157, 155, 155)), url("/img/bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.navbar img {
+    position: relative;
+    top: -10px;
+    height: 100px;
+    width: 200px;
+    left: 15px;
+}
+
+#language {
+    position: absolute;
+    right: 130px;
+    top: 17px;
+    padding: 7px 7px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    width: 120px;
+}
+
+.btn {
+    padding: 7px 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    right: 19px;
+    top: 17px;
+    width: 80px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.info h2 {
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size: 4.2rem;
+}
+
+.para {
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-size: 1.5rem;
+}
+
+.para p {
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+    padding: 15px;
+}
+
+.para input {
+    border: 2px solid white;
+    background: black;
+    padding: 20px 20px;
+    width: 490px;
+    font-size: 16px;
+    color: white;
+}
+
+input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -15px;
+    transition: 0.2s ease-out;
+}
+
+.btn1 {
+    position: relative;
+    top: 10px;
+    color: white;
+    background-color: red;
+    padding: 6px 6px;
+    font-size: 42px;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background-color: grey;
+}
+
+.cards {
+    position: relative;
+    color: white;
+    top: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    font-family: 'Public Sans', sans-serif;
+    background: linear-gradient(to bottom,
+            rgb(139, 21, 78),
+            rgb(26, 26, 75));
+    border-radius: 10px;
+    padding: 100px;
+    margin: 2px;
+    width: 155px;
+    height: 200px;
+    text-align: center;
+}
+
+.boxes img {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.boxes h1 {
+    font-size: 30px;
+}
+
+.boxes p {
+    font-size: 18px;
+}
+
+.box-4 {
+    position: absolute;
+    right: 40px;
+}
+
+.box-3 {
+    position: absolute;
+    right: 403px;
+}
+
+.box-2 {
+    position: absolute;
+    right: 765px;
+}
+
+.box-1 {
+    position: absolute;
+    left: 21px;
+}

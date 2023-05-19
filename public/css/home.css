@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.img1 img {
+    height: 100px;
+    width: 200px;
+    left: 15px;
+}
+
+input {
+    position: absolute;
+    right: 200px;
+    padding: 0px 0px;
+    top: 30px;
+}
+
+.btn1 {
+    position: absolute;
+    right: 180px;
+    top: 30px;
+    right: 150px
+}
+
+.img2 img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 80px;
+    top: 20px;
+}
+
+.img3 img {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    position: relative;
+    top: 13px;
+    list-style: none;
+    padding: 15px 17px;
+    margin: 14px 16px;
+    font-size: 1rem;
+}
+
+.nav ul li:hover{
+    color: grey;
+}
+
+.carousel-cell1 img {
+    height: 650px;
+    width: 1550px;
+}
+
+.carousel-cell2 img {
+    height: 650px;
+    width: 1586px;
+    background-blend-mode: darken;
+}
+
+.carousel-cell3 img {
+    height: 650px;
+    width: 1650px;
+    background-blend-mode: darken;
+}
+
+.top-movies h1 {
+    position: relative;
+    top: 20px;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.content {
+    position: absolute;
+    top: 1000px;
+}
+
+.content:hover h1 {
+    background: transparent;
+    color: rgb(169, 83, 29);
+}
+
+.content h4 {
+    font-size: 60px;
+    color: red;
+}
+
+video{
+    left: 900px;
+    top: -220px;
+    position: relative;
+    height: 400px;
+    width: 500px;
+}

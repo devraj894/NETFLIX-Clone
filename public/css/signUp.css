@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inconsolata:wght@300&family=Inter:wght@100&family=Kanit:wght@100&family=Public+Sans:wght@500&family=Source+Code+Pro&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav img {
+    position: relative;
+    top: -5px;
+    height: 100px;
+    width: 200px;
+    left: 15px;
+}
+
+.btn {
+    padding: 7px 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    right: 19px;
+    top: 28px;
+    width: 80px;
+}
+
+.signUp {
+    font-family: 'Public Sans', sans-serif;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 150px;
+    left: 35%;
+}
+
+.signUp h1 {
+    font-size: 3rem;
+}
+
+form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+
+input {
+    padding: 20px;
+    width: 170%;
+    position: relative;
+    right: 60px;
+}
+
+input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -15px;
+    transition: 0.2s ease-out;
+}
+
+#email {
+    margin: 30px;
+    margin-bottom: -18px;
+}
+
+#password {
+    margin: 30px;
+}
+
+.btn1 {
+    background-color: red;
+    position: relative;
+    right: 12%;
+    padding: 20px;
+    width: 188%;
+}
+
+.btn1:hover {
+    background-color: grey;
+}
